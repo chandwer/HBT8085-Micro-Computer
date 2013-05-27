@@ -1,0 +1,26 @@
+VERSION 2 (ALL ONE STRING USED WITH MY DB LENGTH FIX)
+
+welcome_msg: db 48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,42h,42h,42h,42h,20h,20h,20h,54h,54h,54h,54h,54h,54h,54h,54h,54h,54h,20h,20h,20h,20h,20h,20h,38h,38h,38h,38h,38h,20h,20h,35h,35h,35h,35h,35h,35h,35h,0dh,48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,20h,20h,20h,20h,42h,42h,20h,20h,20h,20h,20h,54h,54h,20h,20h,20h,20h,20h,20h,20h,20h,20h,38h,38h,20h,20h,20h,38h,38h,20h,35h,35h,0dh,48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,20h,20h,20h,20h,42h,42h,20h,20h,20h,20h,20h,54h,54h,20h,20h,20h,20h,20h,20h,20h,20h,20h,38h,38h,20h,20h,20h,38h,38h,20h,35h,35h,0dh,48h,48h,48h,48h,48h,48h,48h,48h,20h,42h,42h,42h,42h,42h,42h,42h,42h,20h,20h,20h,20h,20h,54h,54h,20h,20h,3dh,3dh,3dh,3dh,3dh,3dh,20h,20h,38h,38h,38h,38h,38h,20h,20h,35h,35h,35h,35h,35h,35h,35h,0dh,48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,20h,20h,20h,20h,42h,42h,20h,20h,20h,20h,20h,54h,54h,20h,20h,3dh,3dh,3dh,3dh,3dh,3dh,20h,38h,38h,20h,20h,20h,38h,38h,20h,20h,20h,20h,20h,20h,35h,35h,0dh,48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,20h,20h,20h,20h,42h,42h,20h,20h,20h,20h,20h,54h,54h,20h,20h,20h,20h,20h,20h,20h,20h,20h,38h,38h,20h,20h,20h,38h,38h,20h,20h,20h,20h,20h,20h,35h,35h,0dh,48h,48h,20h,20h,20h,20h,48h,48h,20h,42h,42h,42h,42h,42h,42h,42h,20h,20h,20h,20h,20h,20h,54h,54h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,38h,38h,38h,38h,38h,20h,20h,35h,35h,35h,35h,35h,35h,35h,0dh,0dh,49h,6eh,74h,65h,6ch,20h,38h,30h,38h,35h,20h,40h,20h,7eh,33h,4dh,48h,7ah,0dh,33h,32h,6bh,20h,45h,45h,2dh,50h,52h,4fh,4dh,0dh,32h,38h,6bh,20h,4eh,56h,2dh,52h,41h,4dh,0dh,0dh,68h,6fh,6dh,65h,62h,72h,65h,77h,74h,65h,63h,68h,6eh,6fh,6ch,6fh,67h,79h,2eh,6fh,72h,67h,0dh,48h,61h,63h,6bh,69h,6eh,67h,20h,6ch,69h,6bh,65h,20h,69h,74h,73h,20h,31h,39h,37h,39h,2eh,0dh,0dh,52h,65h,61h,64h,79h,2eh,2eh,2eh,0dh,0dh,00h
+
+VERSION 1 (NONE WORKING, OLD STYLE TERMINAL DOESN'T SUPPORT SOME CHARECTERS)
+
+welcome_msg1_1: db 20h,5fh,20h,20h,20h,20h,5fh,20h,5fh,5fh,5fh,5fh,20h,5fh,5fh,5fh,5fh,5fh,5fh
+welcome_msg1_2: db 5fh,20h,20h,20h,20h,20h,20h,5fh,5fh,5fh,20h,20h,5fh,5fh,5fh,5fh,5fh,20h,0dh
+welcome_msg2_1: db 7ch,20h,7ch,20h,20h,7ch,20h,7ch,20h,20h,5fh,20h,5ch,5fh,5fh,20h,20h,20h,5fh
+welcome_msg2_2: db 5fh,7ch,20h,20h,20h,20h,2fh,20h,5fh,20h,5ch,7ch,20h,5fh,5fh,5fh,5fh,7ch,0dh
+welcome_msg3_1: db 7ch,20h,7ch,5fh,5fh,7ch,20h,7ch,20h,7ch,5fh,29h,20h,7ch,20h,7ch,20h,7ch,5fh
+welcome_msg3_2: db 5fh,5fh,5fh,5fh,5fh,7ch,20h,28h,5fh,29h,20h,7ch,20h,7ch,5fh,5fh,0dh
+welcome_msg4_1: db 7ch,20h,20h,5fh,5fh,20h,20h,7ch,20h,20h,5fh,20h,3ch,20h,20h,7ch,20h,7ch,5fh
+welcome_msg4_2: db 5fh,5fh,5fh,5fh,5fh,7ch,3eh,20h,5fh,20h,3ch,7ch,5fh,5fh,5fh,20h,5ch,0dh
+welcome_msg5_1: db 7ch,20h,7ch,20h,20h,7ch,20h,7ch,20h,7ch,5fh,29h,20h,7ch,20h,7ch,20h,7ch,20h
+welcome_msg5_2: db 20h,20h,20h,20h,20h,7ch,20h,28h,5fh,29h,20h,7ch,5fh,5fh,5fh,29h,20h,7ch,0dh
+welcome_msg6_1: db 7ch,5fh,7ch,20h,20h,7ch,5fh,7ch,5fh,5fh,5fh,5fh,2fh,20h,20h,7ch,5fh,7ch,20h
+welcome_msg6_2: db 20h,20h,20h,20h,20h,20h,5ch,5fh,5fh,5fh,2fh,7ch,5fh,5fh,5fh,5fh,2fh,0dh,0dh
+welcome_msg7: db 49h,6eh,74h,65h,6ch,20h,38h,30h,38h,35h,20h,40h,20h,7eh,33h,4dh,48h,7ah,0dh
+welcome_msg8: db 33h,32h,6bh,20h,45h,45h,2dh,50h,52h,4fh,4d,0dh
+welcome_msg9: db 32h,38h,6bh,20h,4eh,56h,2dh,52h,41h,4d,0dh,0dh
+welcome_msg10_1: db 68h,6fh,6dh,65h,62h,72h,65h,77h,74h,65h,63h,68h
+welcome_msg10_2: db 6eh,6fh,6ch,6fh,67h,79h,2eh,6fh,72h,67h,0dh
+welcome_msg11_1: db 48h,61h,63h,6bh,69h,6eh,67h,20h,6ch,69h,6bh,65h
+welcome_msg11_2: db 20h,69h,74h,73h,20h,31h,39h,37h,39h,2e,0dh,0dh
+welcome_msg12: db 52h,65h,61h,64h,79h,2eh,2eh,2e,0dh,0dh

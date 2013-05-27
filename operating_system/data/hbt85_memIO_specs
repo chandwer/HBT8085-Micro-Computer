@@ -1,0 +1,10 @@
+HBT-85 Memory/IO
+-----------------------------------------------------------------
+EEPROM:        0x0000 - 0x7FFF  (32k)
+NVRAM:         0x8000 - 0xEFFF  (28k)
+                  0x8000 to 0x8080 (128 Bytes system reserved)
+                  0x8081 to 0xEFFF (28,542 Bytes user space)
+8255 I/O:      0xF000 - 0xF003
+16C550 UART:   0xF008 - 0xF00F
+
+48h,42h,54h,2dh,38h,35h,20h,4dh,65h,6dh,6fh,72h,79h,2fh,49h,4fh,0dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,2dh,0dh,45h,45h,50h,52h,4fh,4dh,3ah,20h,20h,20h,20h,20h,20h,20h,20h,30h,78h,30h,30h,30h,30h,20h,2dh,20h,30h,78h,37h,46h,46h,46h,20h,20h,28h,33h,32h,6bh,29h,0dh,4eh,56h,52h,41h,4dh,3ah,20h,20h,20h,20h,20h,20h,20h,20h,20h,30h,78h,38h,30h,30h,30h,20h,2dh,20h,30h,78h,45h,46h,46h,46h,20h,20h,28h,32h,38h,6bh,29h,0dh,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,30h,78h,38h,30h,30h,30h,20h,74h,6fh,20h,30h,78h,38h,30h,38h,30h,20h,28h,31h,32h,38h,20h,42h,79h,74h,65h,73h,20h,73h,79h,73h,74h,65h,6dh,20h,72h,65h,73h,65h,72h,76h,65h,64h,29h,0dh,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,20h,30h,78h,38h,30h,38h,31h,20h,74h,6fh,20h,30h,78h,45h,46h,46h,46h,20h,28h,32h,38h,2ch,35h,34h,32h,20h,42h,79h,74h,65h,73h,20h,75h,73h,65h,72h,20h,73h,70h,61h,63h,65h,29h,0dh,38h,32h,35h,35h,20h,49h,2fh,4fh,3ah,20h,20h,20h,20h,20h,20h,30h,78h,46h,30h,30h,30h,20h,2dh,20h,30h,78h,46h,30h,30h,33h,0dh,31h,36h,43h,35h,35h,30h,20h,55h,41h,52h,54h,3ah,20h,20h,20h,30h,78h,46h,30h,30h,38h,20h,2dh,20h,30h,78h,46h,30h,30h,46h,0dh,00h
